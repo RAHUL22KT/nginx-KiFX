@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Slide Navbar</title>
+    <link rel="stylesheet" type="text/css" href="./login_signup.css">
+</head>
+
+<body>
+    <div class="main">
+        <input type="checkbox" id="chk" aria-hidden="true">
+
+        <div class="signup">
+            <!-- <form method="post"> -->
+            <label for="chk" aria-hidden="true">Sign up</label>
+            <input id="s_username" type="text" name="txt" placeholder="User name" required="">
+            <input id="s_email" type="email" name="email" placeholder="Email" required="">
+            <input id="s_password" type="password" name="pswd" placeholder="Password" required="">
+            <button id="signupButton">Sign up</button>
+            <!-- </form> -->
+        </div>
+
+        <div class="login">
+            <!-- <form method="post"> -->
+            <label for="chk" aria-hidden="true">Login</label>
+            <input id="l_email" type="email" name="email" placeholder="Email" required="">
+            <input id="l_password" type="password" name="pswd" placeholder="Password" required="">
+            <button id="loginButton">Login</button>
+            <!-- </form> -->
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
